@@ -31,3 +31,15 @@ form {
   display: flex;
   height: 500px;
 }
+
+.sidebyside {
+  display: inline-flex;
+}
+
+#input-name {
+  width: 200px;
+}
+
+#input-lastname {
+  width: 200px;
+}
