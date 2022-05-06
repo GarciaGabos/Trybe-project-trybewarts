@@ -44,11 +44,32 @@
         <label for="HoFs"><input type="checkbox" name="" value="Promises">Promises</label>
         <label for="HoFs"><input type="checkbox" name="" value="React">React</label>
         <label for="HoFs"><input type="checkbox" name="" value="SQL">SQL</label>
-        <label for="HoFs"><input type="checkbox" name="" value="Python">Python</label>      
+        <label for="HoFs"><input type="checkbox" name="" value="Python">Python</label>  
+      <label for="contents" id="label-rate">Como você avalia a Trybewarts?
+        <input type="radio" name="rate" value="1">
+        <input type="radio" name="rate" value="2"> 
+        <input type="radio" name="rate" value="3"> 
+        <input type="radio" name="rate" value="4"> 
+        <input type="radio" name="rate" value="5"> 
+        <input type="radio" name="rate" value="6"> 
+        <input type="radio" name="rate" value="7"> 
+        <input type="radio" name="rate" value="8"> 
+        <input type="radio" name="rate" value="9"> 
+        <input type="radio" name="rate" value="10"> 
+      </label>
+      <label class="textarea" for="textarea">Deixe seu comentário:</label>
+      <textarea name="areatexto" id="textarea" maxlength="500"></textarea>
+
+      <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?
+      <input type="checkbox" name="" id="agreement">
+      </label>
+
+      <button id="submit-btn" type="submit">Enviar</button>
+
     </form>
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
   </main>
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
