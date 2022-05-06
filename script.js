@@ -8,4 +8,4 @@ function loginTrybe() {
   } else {
     alert('Email ou senha inválidos');
   }
-} //  document.getLoginButton.addEventListener('click', loginTrybe);
+} getLoginButton.addEventListener('click', loginTrybe);
