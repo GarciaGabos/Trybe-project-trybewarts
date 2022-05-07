@@ -46,30 +46,33 @@
         <label for="HoFs"><input type="checkbox" name="" value="SQL">SQL</label>
         <label for="HoFs"><input type="checkbox" name="" value="Python">Python</label>  
       <label for="contents" id="label-rate">Como você avalia a Trybewarts?
-        <input type="radio" name="rate" value="1">
-        <input type="radio" name="rate" value="2"> 
-        <input type="radio" name="rate" value="3"> 
-        <input type="radio" name="rate" value="4"> 
-        <input type="radio" name="rate" value="5"> 
-        <input type="radio" name="rate" value="6"> 
-        <input type="radio" name="rate" value="7"> 
-        <input type="radio" name="rate" value="8"> 
-        <input type="radio" name="rate" value="9"> 
-        <input type="radio" name="rate" value="10"> 
+        <input type="radio" name="rate" value="1"> 1
+        <input type="radio" name="rate" value="2"> 2
+        <input type="radio" name="rate" value="3"> 3
+        <input type="radio" name="rate" value="4"> 4
+        <input type="radio" name="rate" value="5"> 5
+        <input type="radio" name="rate" value="6"> 6
+        <input type="radio" name="rate" value="7"> 7
+        <input type="radio" name="rate" value="8"> 8
+        <input type="radio" name="rate" value="9"> 9
+        <input type="radio" name="rate" value="10"> 10
       </label>
       <label class="textarea" for="textarea">Deixe seu comentário:</label>
       <textarea name="areatexto" id="textarea" maxlength="500"></textarea>
 
       <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?
-      <input type="checkbox" name="" id="agreement">
+      <input type="checkbox" name="toggle" id="agreement">
+      <button type="submit" id="submit-btn" disabled>Enviar</button> 
       </label>
-
-      <button id="submit-btn" type="submit">Enviar</button>
-
+      
+              
+      </script>
     </form>
     <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
   </main>
-
+  <footer class="footer">
+    <h5>Direitos reservados à Trybewarts©</h5>
+  </footer>
   <script src="./script.js"></script>
 </body>
 </html>
