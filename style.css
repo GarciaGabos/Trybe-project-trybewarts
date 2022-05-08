@@ -6,10 +6,18 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin-bottom: 15px;
+  margin-top: -8px;
 }
 
 .trybewarts-header-logo {
   height: 150px;
+}
+
+#login {
+  margin-right: 5px;
 }
 
 form {
@@ -18,7 +26,6 @@ form {
 
 #main {
   display: flex;
-
 }
 
 #evaluation-form {
@@ -30,10 +37,12 @@ form {
 #trybewarts-forms-logo {
   display: flex;
   height: 500px;
+  margin-left: 100px;
 }
 
 .sidebyside {
   display: inline-flex;
+  margin: 1px;
 }
 
 #input-name {
@@ -44,3 +53,8 @@ form {
   width: 200px;
 }
 
+.footer {
+  background-color: rgb(50, 167, 145);
+  margin-bottom: -25px;
+  text-align: center;
+}
